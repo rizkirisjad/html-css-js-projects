@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #a5d7e8;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -47,7 +47,6 @@
 .right ul li a {
   padding: 10px 20px;
   font-size: 1.2rem;
-  color: white;
   cursor: pointer;
   text-decoration: none;
   transition: all 1s;
