@@ -15,7 +15,7 @@ let secretNumber = Math.trunc(Math.random() * 75) + 1;
 let score = 50;
 let highscore = 0;
 const check = document.querySelector('.check');
-// const guess = document.querySelector('.guess');
+
 const number = document.querySelector('.number');
 const body = document.querySelector('body');
 
