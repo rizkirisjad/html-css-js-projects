@@ -15,7 +15,7 @@ let secretNumber = Math.trunc(Math.random() * 75) + 1;
 let score = 50;
 let highscore = 0;
 const check = document.querySelector('.check');
-
+const inputGuess = document.querySelector('.guess');
 const number = document.querySelector('.number');
 const body = document.querySelector('body');
 
@@ -24,7 +24,7 @@ const displayMessage = function (message) {
 };
 
 check.addEventListener('click', () => {
-  const guess = Number(document.querySelector('.guess').value);
+  const guess = Number(inputGuess.value);
   console.log(guess, typeof guess);
 
   // When there is no input
@@ -93,7 +93,7 @@ document.querySelector('.again').addEventListener('click', function () {
   displayMessage('Start guessing...');
   document.querySelector('.score').textContent = score;
   number.textContent = '?';
-  document.querySelector('.guess').value = '';
+  inputGuess.value = '';
 
   body.style.backgroundColor = '#222';
   number.style.width = '15rem';
