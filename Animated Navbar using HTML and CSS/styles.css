@@ -22,7 +22,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 4rem;
-  background: rgb(26, 25, 25);
+  background: #212a3e;
 }
 
 .navbar h2 {
@@ -41,7 +41,7 @@ ul li a {
   text-decoration: none;
   padding: 5px 1rem;
   margin: 0 10px;
-  color: rgb(232, 228, 102);
+  color: #ffd93d;
   position: relative;
 }
 
