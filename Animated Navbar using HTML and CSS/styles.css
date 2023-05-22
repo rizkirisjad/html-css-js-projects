@@ -41,7 +41,7 @@ ul li a {
   text-decoration: none;
   padding: 5px 1rem;
   margin: 0 10px;
-  color: #ffd93d;
+  color: #fff;
   position: relative;
 }
 
@@ -53,8 +53,8 @@ ul li a::before {
   top: 0;
   left: 0;
   box-sizing: border-box;
-  border-top: 2px solid rgb(232, 228, 102);
-  border-left: 2px solid rgb(232, 228, 102);
+  border-top: 2px solid rgb(254, 254, 254);
+  border-left: 2px solid rgb(254, 254, 254);
   transition: all 0.4s;
 }
 
@@ -66,8 +66,8 @@ ul li a::after {
   bottom: 0;
   right: 0;
   box-sizing: border-box;
-  border-bottom: 2px solid rgb(232, 228, 102);
-  border-right: 2px solid rgb(232, 228, 102);
+  border-bottom: 2px solid rgb(254, 254, 254);
+  border-right: 2px solid rgb(254, 254, 254);
   transition: all 0.4s;
 }
 
