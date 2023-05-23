@@ -26,8 +26,8 @@ body {
 .btn {
   outline: none;
   border: none;
-  background-color: rgb(12, 252, 24);
-  color: black;
+  background-color: #19a7ce;
+  color: whitesmoke;
   font-size: 20px;
   padding: 1rem 4rem;
   border-radius: 2rem;
@@ -35,7 +35,7 @@ body {
 }
 
 .btn:hover {
-  background-color: rgb(32, 236, 42);
+  background-color: #146c94;
 }
 
 .popupContainer {
