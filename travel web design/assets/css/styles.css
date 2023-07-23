@@ -59,7 +59,7 @@ section {
 .nav-wrapper .menu-wrapper {
   display: flex;
   gap: 50px;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .nav-wrapper .menu-wrapper .menu {
