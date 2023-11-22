@@ -157,6 +157,12 @@ main aside .social-media li {
   list-style-type: none;
 }
 
+main aside .social-media li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 main aside .social-media li a {
   text-decoration: none;
   font-size: 1.5rem;
