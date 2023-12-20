@@ -8,14 +8,15 @@ body {
 
 .hero {
   background-color: #f08e80;
-  height: 90vh;
+  min-height: 90vh;
+  color: white;
+  display: inline-block;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
   padding: 24px 32px;
 }
 
@@ -46,9 +47,70 @@ body {
 .hero-content {
   padding: 0 15%;
 }
+
 .tagline {
   font-size: 4.5rem;
-  color: white;
   letter-spacing: 2px;
   padding: 32px 0;
+}
+
+.two-column-section {
+  font-size: 2rem;
+}
+
+.two-column-section > p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.two-column-section .skills {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0;
+  list-style: none;
+}
+
+.two-column-section .skills li {
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
+
+.blog-section {
+  background-color: white;
+  padding: 64px 0;
+}
+
+.blog-content {
+  padding: 0 15%;
+}
+
+.two-column-section .blog-posts {
+  width: 50%;
+  float: left;
+}
+
+.blog-heading {
+  font-size: 1.5rem;
+}
+
+.blog-text {
+  font-size: 1rem;
+}
+
+.blog-posts {
+  margin-top: 24px;
+}
+
+.blog-posts .blog-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+
+.blog-posts p {
+  margin: 8px 0;
 }
