@@ -4,9 +4,48 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-areas:
+    'eth eth alphabet'
+    'eth eth traveler'
+    'cube astro traveler'
+    'cup insta insta'
+    'cup insta insta'
+    'foam foam dimensional'
+    'foam foam dimensional';
+}
+
+#eth {
+  grid-area: eth;
+}
+#alphabet {
+  grid-area: alphabet;
+}
+#traveler {
+  grid-area: traveler;
+}
+#astro {
+  grid-area: astro;
+}
+#cube {
+  grid-area: cube;
+}
+#cup {
+  grid-area: cup;
+}
+#insta {
+  grid-area: insta;
+}
+#foam {
+  grid-area: foam;
+}
+#dimensional {
+  grid-area: dimensional;
+}
+
 .project {
-  width: 300px;
-  margin-top: 300px;
+  /* width: 600px; */
   position: relative;
 }
 
